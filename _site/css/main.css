@@ -4618,7 +4618,7 @@ body a:active { color: #000000; }
 
 .header-wrapper { background: #FCE9E9; width: 100%; padding: 64px 0 64px 0; border-top: 2px solid #F5B5B5; }
 
-.header-wrapper h1 { padding: 0 0 0 114px; background: url("../assets/warning-icon-red.svg") no-repeat; background-position: top 12px left; min-height: 86px; }
+.header-wrapper h1 { padding: 0 0 0 96px; background: url("../assets/warning-icon-red.svg") no-repeat; background-position: top 12px left; min-height: 86px; }
 
 .header-wrapper p.lead { font-size: 1.2rem; padding: 32px 0 0 0; font-family: "Open Sans", sans-serif; font-weight: 600; font-style: normal; }
 
