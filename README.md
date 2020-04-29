@@ -1,5 +1,5 @@
-# BGA Checklist pattern
+# Design for BGA maintenance page 
 
-[Prototype - minified steps](https://ausgov.github.io/bga-checklist/pages-content/Hiring-checklist-min.html)
+https://ausgov.github.io/bga-maintenance-page/
 
-[Prototype - expanded steps](https://ausgov.github.io/bga-checklist/pages-content/Hiring-checklist.html)
+
