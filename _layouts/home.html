@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+ 
+    <meta name="robots" content="noarchive, nofollow, noindex, nosnippet, notranslate, noydir">
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/css/client.min.css"> -->
+    <link rel="stylesheet" href={{ "css/bootstrap.min.css" | relative_url }}>
+
+    <!-- Prototype specific CSS -->
+    <link rel="stylesheet" href={{ "css/main.css" | relative_url }}>
+    
+ 
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+    
+    
+
+</head>
+
+
+
+<body class="au-grid">
+
+    <!-- HEADER -->
+    <header>
+
+        <div class="brand-container-wrapper">
+            <div class="container container-fluid">
+                <div class="row">
+
+                    <div class="col-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+
+                        <img src={{ "assets/bga_crest.svg" | relative_url }} alt="business.gov.au design system">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+
+    <div class="header-wrapper">
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <h1>Business.gov.au is temporarily unavailable.</h1>
+                    <p class="lead">We’re currently experiencing intermittent outages and are working to resolve the problem.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    </header>
+    
+    <!-- CONTENT -->
+
+    <div class="main-section">
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <h2>Need help immediately?</h2>
+                    
+                    <div class="callout-container">
+                    <h3>Contact us if you need business support</h3>
+                        <p class="contact-details phone"><a href="tel:13 28 46">13 28 46</a></p>
+                        <p class="contact-details time">8am - 8pm, Mon-Fri, local time</p>
+                    </div>
+                    
+                    <div class="callout-container">
+                    <h3>You can still apply for, or manage a grant or service</h3>
+                        <p>This outage has not affected our <a href="https://portal.business.gov.au">online portal</a>. If you’ve already started an application for funding or support, you can continue to apply or manage an existing grant or service.</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
